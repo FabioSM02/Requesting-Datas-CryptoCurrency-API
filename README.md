@@ -6,6 +6,11 @@
 - Manipulate the values' API
 - Display the data in web
 
+## Technologies used
+- JavaScript
+- ReactJS
+- CSS
+
 ## How I visualize in web?
 
 - Install the project using git bash or zip folder, if you do in git bash type it:
@@ -18,6 +23,8 @@
 yarn install
 ```
 
+- Add extension Moesif Origin & CORS Changer for show datas from this API
+
 - After installing all dependencies, give:
 
 ```
@@ -25,5 +32,3 @@ yarn start
 ```
 
 - The project will open in **localhost:3000**
-
-- Add extension Moesif Origin & CORS Changer for show datas from this API
