@@ -15,9 +15,9 @@
 
 - Install the project using git bash or zip folder, if you do in git bash type it:
 
-  ```
-  git clone https://github.com/FabioSM02/Requesting-Datas-CryptoCurrency-API
-  ```
+```
+git clone https://github.com/FabioSM02/Requesting-Datas-CryptoCurrency-API
+```
 
 - After copying, install all project dependencies via the terminal using:
 
