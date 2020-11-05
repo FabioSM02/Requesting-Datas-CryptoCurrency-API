@@ -1,0 +1,76 @@
+.container-landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.container-landing .content-landing {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.content-landing.show{
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+
+.content-landing h1 {
+    font-size: 44px;
+    line-height: 42px;
+    color: #151416;
+}
+
+.box-coin-info {
+    border: 1px solid #000;
+    width: 400px;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: rgba(59, 62, 110, 0.733);
+    -webkit-box-shadow: -3px -1px 3px 0px rgba(13, 7, 29, 0.64);
+    -moz-box-shadow: -3px -1px 3px 0px rgba(13, 7, 29, 0.64);
+    box-shadow: -3px -1px 3px 0px rgba(13, 7, 29, 0.64);
+    opacity: 1;
+}
+
+.box-coin-info>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 14px;
+}
+
+.box-coin-info>div h2 {
+    margin-left: 55px;
+    line-height: 30px;
+    font-family: Roboto;
+    font-size: 24px;
+}
+
+footer {
+    padding-top: 5px;
+    margin-bottom: 10px;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p a {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
